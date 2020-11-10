@@ -1,14 +1,38 @@
-.Forms-container {
+.forms-container {
   display: flex;
   flex-direction: column;
-  justify-self: center;
-  background: rgb(66, 18, 177);
+  margin: 30px 200px;
 }
 .personDetails {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 textarea {
   resize: none;
+}
+option {
+  display: flex;
+}
+.recommendParts {
+  display: flex;
+}
+.role-box {
+  display: flex;
+  border: none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./background.jpeg);
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.headParagraph {
+  display: flex;
+  justify-content: center;
 }
