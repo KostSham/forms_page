@@ -1,0 +1,14 @@
+.Forms-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  background: rgb(66, 18, 177);
+}
+.personDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+textarea {
+  resize: none;
+}
